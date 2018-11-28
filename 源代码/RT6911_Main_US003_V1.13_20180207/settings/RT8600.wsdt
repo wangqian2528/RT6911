@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>RT8600/Debug</Project><Project>RT8600S/Debug</Project></CurrentConfigs><CurrentProj>RT8600S</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>211</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1035</ColumnWidth1><ColumnWidth2>276</ColumnWidth2><ColumnWidth3>69</ColumnWidth3></Build>
+      <TerminalIO/>
+    <Find-in-Files><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows><ColumnWidth0>254</ColumnWidth0><ColumnWidth1>48</ColumnWidth1><ColumnWidth2>860</ColumnWidth2></Find-in-Files><Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window><Window><Factory>Find-in-Files</Factory></Window></Windows></PreferedWindows><ColumnWidth0>22</ColumnWidth0><ColumnWidth1>1379</ColumnWidth1></Debug-Log><Disassembly><PreferedWindows><Position>4</Position><ScreenPosX>951</ScreenPosX><ScreenPosY>302</ScreenPosY><Windows/></PreferedWindows></Disassembly></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-10951-4191</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>RT8600</ExpandedNode><ExpandedNode>RT8600S</ExpandedNode><ExpandedNode>RT8600S/Local</ExpandedNode><ExpandedNode>RT8600S/Peripheral</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd2><Tabs><Tab><Identity>TabID-19095-18048</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-19922-3133</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-18144-31695</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\BlueTooth.c</Filename><XPos>0</XPos><YPos>168</YPos><SelStart>6162</SelStart><SelEnd>6162</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\DMAUart.c</Filename><XPos>0</XPos><YPos>194</YPos><SelStart>7321</SelStart><SelEnd>7321</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\UartLeg.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>802</SelStart><SelEnd>802</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CMSIS\DeviceSupport\EFM32LG\Include\efm32lg280f128.h</Filename><XPos>0</XPos><YPos>415</YPos><SelStart>22541</SelStart><SelEnd>22547</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CMSIS\DeviceSupport\EFM32LG\Include\efm32lg_uart.h</Filename><XPos>0</XPos><YPos>670</YPos><SelStart>77401</SelStart><SelEnd>77401</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\AxisMotor.c</Filename><XPos>0</XPos><YPos>33</YPos><SelStart>1721</SelStart><SelEnd>1721</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\AxisMotor.h</Filename><XPos>0</XPos><YPos>78</YPos><SelStart>2787</SelStart><SelEnd>2787</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\IndicateLED.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>427</SelStart><SelEnd>427</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>294</SelStart><SelEnd>294</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Flex_Uart .c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>107</SelStart><SelEnd>107</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Flex_Uart.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>129</SelStart><SelEnd>140</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Valve.c</Filename><XPos>0</XPos><YPos>915</YPos><SelStart>23717</SelStart><SelEnd>23717</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ADC_scan.c</Filename><XPos>0</XPos><YPos>208</YPos><SelStart>7398</SelStart><SelEnd>7398</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Input.c</Filename><XPos>0</XPos><YPos>415</YPos><SelStart>11599</SelStart><SelEnd>11599</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LED_RGB.c</Filename><XPos>0</XPos><YPos>231</YPos><SelStart>7703</SelStart><SelEnd>7716</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SlideMotor.c</Filename><XPos>0</XPos><YPos>9</YPos><SelStart>1037</SelStart><SelEnd>1037</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\airbagaction.h</Filename><XPos>0</XPos><YPos>905</YPos><SelStart>36587</SelStart><SelEnd>36587</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\valve.h</Filename><XPos>0</XPos><YPos>115</YPos><SelStart>4550</SelStart><SelEnd>4550</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>180</YPos><SelStart>8097</SelStart><SelEnd>8097</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\emlib\src\em_dma.c</Filename><XPos>0</XPos><YPos>443</YPos><SelStart>15642</SelStart><SelEnd>15642</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\system.c</Filename><XPos>0</XPos><YPos>180</YPos><SelStart>7457</SelStart><SelEnd>7457</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LegKnead_Uart.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>203</SelStart><SelEnd>203</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Roller_Uart.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>275</SelStart><SelEnd>275</SelEnd></Tab><ActiveTab>22</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01378470><key>iaridepm.enu1</key></Toolbar-01378470></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>702</Bottom><Right>285</Right><x>-2</x><y>-2</y><xscreen>0</xscreen><yscreen>72</yscreen><sizeHorzCX>0</sizeHorzCX><sizeHorzCY>86124</sizeHorzCY><sizeVertCX>385753</sizeVertCX><sizeVertCY>842105</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>89</Bottom><Right>746</Right><x>-2</x><y>-2</y><xscreen>748</xscreen><yscreen>91</yscreen><sizeHorzCX>1005376</sizeHorzCX><sizeHorzCY>108852</sizeHorzCY><sizeVertCX>9409</sizeVertCX><sizeVertCY>251196</sizeVertCY></Rect></Wnd2></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

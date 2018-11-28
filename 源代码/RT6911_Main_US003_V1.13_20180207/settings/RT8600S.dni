@@ -1,0 +1,190 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-1124867103
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2250000
+Prescaler=32
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=1
+ITMportsTermIO=1
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[JLinkDriver]
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[struct_types]
+Fmt0=StretchStruct-timer	3	0
+Fmt1=WALK_KNEAD_KNOCK_MOTOR_STRUCT_AUTO-nKneadKnockSpeed	4	0
+Fmt2=WALK_KNEAD_KNOCK_MOTOR_STRUCT_AUTO-nKneadMotorCycles	4	0
+Fmt3=WALK_KNEAD_KNOCK_MOTOR_STRUCT_AUTO-nKneadMotorState	4	0
+Fmt4=WALK_KNEAD_KNOCK_MOTOR_STRUCT_AUTO-nKnockMotorRunTime	4	0
+Fmt5=WALK_KNEAD_KNOCK_MOTOR_STRUCT_AUTO-nKnockMotorState	4	0
+Fmt6=WALK_KNEAD_KNOCK_MOTOR_STRUCT_AUTO-nKnockMotorStopTime	4	0
+Fmt7=WALK_KNEAD_KNOCK_MOTOR_STRUCT_AUTO-nWalkMotorLocateParam	4	0
+Fmt8=st_AirBag-nCurAirBagStep	3	0
+Fmt9=st_AirBag-nCurKeepTime1	3	0
+Fmt10=st_AirBag-nCurKeepTime2	3	0
+Fmt11=st_AirBag-nCurKeepTime3	3	0
+Fmt12=st_AirBag-nCurKeepTime4	3	0
+Fmt13=st_AirBag-nCurKeepTime5	3	0
+Fmt14=st_AirBag-nCurPumpValveState	4	0
+[array_types]
+Fmt0=unsigned char[20]	1	0
+Fmt1=unsigned char[2]	1	0
+Fmt2=unsigned char[3]	1	0
+[watch_formats]
+Fmt0={W}0:OutBuffer[13]	1	0
+Fmt1={W}0:OutLegBuffer[4]	4	0
+Fmt2={W}0:_test_duty	3	0
+Fmt3={W}0:addr	4	0
+Fmt4={W}0:appCheckSum	3	0
+Fmt5={W}0:baseAddress	4	0
+Fmt6={W}0:ctrlType	4	0
+Fmt7={W}0:engStatus	4	0
+Fmt8={W}0:family	3	0
+Fmt9={W}0:i	4	0
+Fmt10={W}0:key	4	0
+Fmt11={W}0:massage3DPluse	3	0
+Fmt12={W}0:massageSignal	3	0
+Fmt13={W}0:nFlexStatus	1	0
+Fmt14={W}0:nKeyAirBagStrength	3	0
+Fmt15={W}0:nMaxActionStep	4	0
+Fmt16={W}0:p_2	4	0
+Fmt17={W}0:p_3	4	0
+Fmt18={W}0:p_chksum	3	0
+Fmt19={W}0:p_length	4	0
+Fmt20={W}0:signal	1	0
+Fmt21={W}0:w_Cloud_progarm_ID	4	0
+Fmt22={W}0:w_ZeroPosition	1	0
+Fmt23={W}0:w_test	4	0
+Fmt24={W}0:walkPluse	3	0
+Fmt25={W}42:nFlexStatus	1	0
+Fmt26={W}42:nFlexStatus5	1	0
+Fmt27={W}42:nFlexStatus_test	1	0
+Fmt28={W}42:nFlexStatus_test2	1	0
+Fmt29={W}42:signal	1	0
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title0=I0
+Setup0=0 1 0 500 2 0 4 0 0
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+Title0=ITM1
+Setup0=1 1 1 1
+Title1=ITM2
+Setup1=1 1 1 1
+Title2=ITM3
+Setup2=1 1 1 1
+Title3=ITM4
+Setup3=1 1 1 1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 1
+LogFile=_ "$PROJ_DIR$\TermIO.log"
+[Trace1]
+Enabled=0
+ShowSource=1
+[Trace2]
+Enabled=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "D:\project\7710\RT6910S_Main_US003_ALL_V1.0_20160422\emlib\inc\em_adc.h" "D:\project\7710\RT6910S_Main_US003_ALL_V1.0_20160425\emlib\inc\em_adc.h"
+A1=_ "D:\project\7710\RT6910S_Main_US003_ALL_V1.0_20160422\emlib\src\em_dma.c" "D:\project\7710\RT6910S_Main_US003_ALL_V1.0_20160425\emlib\src\em_adc.c"
+A2=_ "D:\project\7710\RT6910S_Main_US003_ALL_V1.0_20160422\main.c" "D:\project\7710\RT6910S_Main_US003_ALL_V1.0_20160425\main.c"
+A3=_ "D:\project\7710\RT6911_Main_US003_ALL_V1.02_20160806\源代码\main.c" "D:\project\7710\RT6911_Main_US003_ALL_V1.04_20160829\源代码\main.c"
+A4=_ "D:\project\7710\RT6911_Main_US003_ALL_V1.04_20160831\源代码\main.c" "D:\project\7710\RT6911_Main_US003_ALL_V1.05_20160918TEST\源代码\main.c"
+A5=_ "D:\project\7710\RT6911_Main_US003_ALL_V1.06_20161019TAP\源代码\main.c" "E:\project\笔记本\RT6911_Main_US003_ALL_V1.06_20161019TAP\源代码\main.c"
+A6=_ "E:\RT8600S_RT000_20150796t-8305t-use\emlib\src\em_dma.c" "D:\project\7710\RT6910S_Main_US003_ALL_V1.0_20160422\emlib\src\em_dma.c"
+A7=_ "E:\lgt\主板程序\software_customer\main.c" ""
+A8=_ "E:\project\笔记本\RT6911_Main_US003_ALL_V1.06_20161019TAP\源代码\main.c" "D:\wgh\RT6911_Main_US003_ALL_V1.06_20161019TAP\源代码\main.c"
+A9=_ "E:\work\8600s\software\main.c" "E:\lgt\software\main.c"
+A10=_ "E:\work\8600s\software_20141015\software\emlib\src\em_dma.c" ""
+A11=_ "E:\work\8600s\software_20141015\software\main.c" "E:\lgt\software\main.c"
+A12=_ "E:\work\8600s\software_customer\emlib\src\em_dma.c" ""
+Count=13
+SuppressDialog=1
